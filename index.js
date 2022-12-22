@@ -30,6 +30,7 @@ app.get("/category/:id", (req, res) => {
   }
 });
 
+
 app.get("/course/:id", (req, res) => {
   const id = req.params.id;
   const course = courses.find((c) => c._id === id);
